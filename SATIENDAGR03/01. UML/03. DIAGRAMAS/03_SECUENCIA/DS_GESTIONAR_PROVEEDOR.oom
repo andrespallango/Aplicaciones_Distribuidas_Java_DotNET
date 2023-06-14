@@ -1395,7 +1395,7 @@ Shadow=0</a:DisplayPreferences>
 <c:Symbols>
 <o:InteractionSymbol Id="o6">
 <a:ModificationDate>1670374158</a:ModificationDate>
-<a:Rect>((-12073,-28700), (25787,39722))</a:Rect>
+<a:Rect>((-12773,-29400), (26487,39722))</a:Rect>
 <a:BaseSymbol.Flags>5</a:BaseSymbol.Flags>
 <a:LineColor>15257808</a:LineColor>
 <a:FillColor>16777215</a:FillColor>
