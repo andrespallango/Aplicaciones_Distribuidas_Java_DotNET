@@ -2,7 +2,7 @@ package ec.edu.monster.vista;
 
 /**
  *
- * @author Padilla - Morales - Novoa
+ * @author Mosquera - Pallango - Sánchez
  */
 public class HilosVista {
     public void imprimirInfoHilo(String nombreHilo) {

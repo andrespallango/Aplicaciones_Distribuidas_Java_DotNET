@@ -3,7 +3,7 @@ package ec.edu.monster.modelo;
 
 /**
  *
- * @author Padilla - Morales - Novoa
+ * @author Mosquera - Pallango - Sánchez
  */
 public class HilosModelo {
     public Thread hilo1;

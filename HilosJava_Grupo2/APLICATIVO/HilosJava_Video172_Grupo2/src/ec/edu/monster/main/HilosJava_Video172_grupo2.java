@@ -7,7 +7,7 @@ import ec.edu.monster.vista.HilosVista;
 
 /**
  *
- * @author Padilla - Morales - Novoa
+ * @author Mosquera - Pallango - Sánchez
  */
 public class HilosJava_Video172_grupo2 {
 
