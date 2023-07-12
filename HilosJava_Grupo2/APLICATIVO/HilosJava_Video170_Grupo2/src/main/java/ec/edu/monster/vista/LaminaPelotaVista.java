@@ -21,6 +21,9 @@ class LaminaPelotaVista extends JPanel {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
 
-        arrPelotas.forEach(p -> g2.fill(pelotaController.obtenerForma(p)));
+        arrPelotas.forEach(p -> {
+            g2.setColor(p.color);  // Establece el color de la pelota
+            g2.fill(pelotaController.obtenerForma(p));
+        });
     }
 }

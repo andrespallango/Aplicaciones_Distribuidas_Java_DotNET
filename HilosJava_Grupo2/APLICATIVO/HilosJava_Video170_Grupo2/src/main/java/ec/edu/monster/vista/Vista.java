@@ -1,15 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package ec.edu.monster.vista;
 
 import ec.edu.monster.modelo.PelotaHilos;
-import ec.edu.monster.controlador.Controlador;
+import  ec.edu.monster.controlador.Controlador;
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import ec.edu.monster.modelo.Pelota;
+import java.awt.Color;
+
+/**
+ *
+ * @author USER
+ */
 
 public class Vista extends JFrame {
     public Pelota pelotaModel;
@@ -30,15 +39,11 @@ public class Vista extends JFrame {
         btnComenzarPelota1 = obtenerBoton("Pelota 1", event -> comenzarJuego(1));
         btnComenzarPelota2 = obtenerBoton("Pelota 2", event -> comenzarJuego(2));
         btnComenzarPelota3 = obtenerBoton("Pelota 3", event -> comenzarJuego(3));
+        
 
         btnDetenerPelota1 = obtenerBoton("Detener 1", event -> detener(1));
         btnDetenerPelota2 = obtenerBoton("Detener 2", event -> detener(2));
         btnDetenerPelota3 = obtenerBoton("Detener 3", event -> detener(3));
-
-        // Establecer colores de los botones "Detener" para que coincidan con los botones de las pelotas
-        btnDetenerPelota1.setBackground(btnComenzarPelota1.getBackground());
-        btnDetenerPelota2.setBackground(btnComenzarPelota2.getBackground());
-        btnDetenerPelota3.setBackground(btnComenzarPelota3.getBackground());
 
         panelBotones.add(btnComenzarPelota1);
         panelBotones.add(btnComenzarPelota2);
@@ -49,6 +54,17 @@ public class Vista extends JFrame {
 
         add(panel, BorderLayout.CENTER);
         add(panelBotones, BorderLayout.SOUTH);
+    }
+    
+     private void cambiarColorPelota(int numBoton, Color color) {
+        Pelota pelotaModel = new Pelota();
+        pelotaModel.color = color;  // Establece el nuevo color de la pelota
+
+        panel.agregarPelota(pelotaModel);
+
+        Runnable runnablePelota = new PelotaHilos(pelotaModel, pelotaController, panel);
+
+        // Resto del código...
     }
 
     private JButton obtenerBoton(String titulo, ActionListener listener) {
@@ -66,14 +82,17 @@ public class Vista extends JFrame {
 
         switch (numBoton) {
             case 1:
+                pelotaModel.color = Color.BLUE;  
                 hiloPelota1 = new Thread(runnablePelota);
                 hiloPelota1.start();
                 break;
             case 2:
+                pelotaModel.color = Color.GREEN;
                 hiloPelota2 = new Thread(runnablePelota);
                 hiloPelota2.start();
                 break;
             case 3:
+                pelotaModel.color = Color.MAGENTA;
                 hiloPelota3 = new Thread(runnablePelota);
                 hiloPelota3.start();
                 break;
@@ -94,3 +113,4 @@ public class Vista extends JFrame {
         }
     }
 }
+
