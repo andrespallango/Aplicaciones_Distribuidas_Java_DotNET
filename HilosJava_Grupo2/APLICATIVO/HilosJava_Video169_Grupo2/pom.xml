@@ -11,4 +11,5 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>ec.edu.monster.main.HilosJava_Video169_grupo6</exec.mainClass>
     </properties>
+    <name>HilosJava_Video169_grupo2</name>
 </project>
