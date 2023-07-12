@@ -1,23 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.monster.vista;
 
 import ec.edu.monster.modelo.PelotaHilos;
-import  ec.edu.monster.controlador.Controlador;
+import ec.edu.monster.controlador.Controlador;
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import ec.edu.monster.modelo.Pelota;
-
-/**
- *
- * @author USER
- */
 
 public class Vista extends JFrame {
     public Pelota pelotaModel;
@@ -42,6 +34,11 @@ public class Vista extends JFrame {
         btnDetenerPelota1 = obtenerBoton("Detener 1", event -> detener(1));
         btnDetenerPelota2 = obtenerBoton("Detener 2", event -> detener(2));
         btnDetenerPelota3 = obtenerBoton("Detener 3", event -> detener(3));
+
+        // Establecer colores de los botones "Detener" para que coincidan con los botones de las pelotas
+        btnDetenerPelota1.setBackground(btnComenzarPelota1.getBackground());
+        btnDetenerPelota2.setBackground(btnComenzarPelota2.getBackground());
+        btnDetenerPelota3.setBackground(btnComenzarPelota3.getBackground());
 
         panelBotones.add(btnComenzarPelota1);
         panelBotones.add(btnComenzarPelota2);
