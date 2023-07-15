@@ -34,10 +34,11 @@ public class PelotaHilos implements Runnable {
                                 Thread.sleep(4);
                             } catch (InterruptedException ex) {
                                 //Logger.getLogger(MarcoRebote.class.getName()).log(Level.SEVERE, null, ex);
-                            }
-			}
+            }
+	}
     }
    
 }
-    
 
+
+	

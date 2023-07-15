@@ -4,6 +4,8 @@
  */
 package ec.edu.monster.modelo;
 
+import java.awt.Color;
+
 /**
  *
  * @author USER
@@ -11,11 +13,13 @@ package ec.edu.monster.modelo;
 public class Pelota {
     public static final int TAMX = 15, TAMY = 15;
     public double x, y, dx, dy;
+    public Color color;
 
     public Pelota() {
         this.x = 0;
         this.y = 0;
         this.dx = 1;
         this.dy = 1;
+        this.color = Color.BLUE;
     }
 }

@@ -1,4 +1,3 @@
-
 package ec.edu.monster.controlador;
 
 import ec.edu.monster.modelo.PelotaHilos;
@@ -51,4 +50,5 @@ public class Controlador {
                         Thread t = new Thread(r);
                         t.start();
         }
-}
+}	
+	

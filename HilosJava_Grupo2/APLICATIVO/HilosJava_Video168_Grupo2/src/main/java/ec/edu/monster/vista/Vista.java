@@ -25,8 +25,7 @@ public class Vista extends JFrame{
     public LaminaPelotaVista getLaminaPelota() {
         return laminaPelota;
     }
-
-    public void setLaminaPelota(LaminaPelotaVista laminaPelota) {
+public void setLaminaPelota(LaminaPelotaVista laminaPelota) {
         this.laminaPelota = laminaPelota;
     }
     public Vista(){
