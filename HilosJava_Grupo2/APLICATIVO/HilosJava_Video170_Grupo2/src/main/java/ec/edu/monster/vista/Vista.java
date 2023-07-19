@@ -40,10 +40,18 @@ public class Vista extends JFrame {
         btnComenzarPelota2 = obtenerBoton("Pelota 2", event -> comenzarJuego(2));
         btnComenzarPelota3 = obtenerBoton("Pelota 3", event -> comenzarJuego(3));
         
+        btnComenzarPelota1.setBackground(Color.BLUE);
+        btnComenzarPelota2.setBackground(Color.GREEN);
+        btnComenzarPelota3.setBackground(Color.MAGENTA);
+        
 
         btnDetenerPelota1 = obtenerBoton("Detener 1", event -> detener(1));
         btnDetenerPelota2 = obtenerBoton("Detener 2", event -> detener(2));
         btnDetenerPelota3 = obtenerBoton("Detener 3", event -> detener(3));
+        
+        btnDetenerPelota1.setBackground(Color.BLUE);
+        btnDetenerPelota2.setBackground(Color.GREEN);
+        btnDetenerPelota3.setBackground(Color.MAGENTA);
 
         panelBotones.add(btnComenzarPelota1);
         panelBotones.add(btnComenzarPelota2);
@@ -54,17 +62,6 @@ public class Vista extends JFrame {
 
         add(panel, BorderLayout.CENTER);
         add(panelBotones, BorderLayout.SOUTH);
-    }
-    
-     private void cambiarColorPelota(int numBoton, Color color) {
-        Pelota pelotaModel = new Pelota();
-        pelotaModel.color = color;  // Establece el nuevo color de la pelota
-
-        panel.agregarPelota(pelotaModel);
-
-        Runnable runnablePelota = new PelotaHilos(pelotaModel, pelotaController, panel);
-
-        // Resto del código...
     }
 
     private JButton obtenerBoton(String titulo, ActionListener listener) {
