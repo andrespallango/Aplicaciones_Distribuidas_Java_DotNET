@@ -1,0 +1,11 @@
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\bin\Debug\Grupo01_Sincronizacion_MVC.exe.config
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\bin\Debug\Grupo01_Sincronizacion_MVC.exe
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\bin\Debug\Grupo01_Sincronizacion_MVC.pdb
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo6.csproj.AssemblyReference.cache
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Grupo01_Sincronizacion_MVC.Properties.Resources.resources
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Grupo01_Sincronizacion_MVC.Vista.VistaSincronizacion.resources
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo6.csproj.GenerateResource.cache
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo6.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Grupo01_Sincronizacion_MVC.exe
+C:\Users\Ricky\Downloads\HILOS_DOTNET_ALQUINGA_PINTA_PUPIALES                       8.0\Hilos_Sincronizacion_MVC en DOTNET_grupo6\obj\Debug\Grupo01_Sincronizacion_MVC.pdb

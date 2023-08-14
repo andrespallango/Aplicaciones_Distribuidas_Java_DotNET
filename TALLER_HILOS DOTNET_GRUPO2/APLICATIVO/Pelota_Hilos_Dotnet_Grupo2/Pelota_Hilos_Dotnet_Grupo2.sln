@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pelota_Hilos_Dotnet_Grupo2", "Pelota_Hilos_Dotnet_Grupo2.csproj", "{C8D50BA9-C3EB-4FE9-A920-F0233D2FCBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8D50BA9-C3EB-4FE9-A920-F0233D2FCBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D50BA9-C3EB-4FE9-A920-F0233D2FCBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D50BA9-C3EB-4FE9-A920-F0233D2FCBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D50BA9-C3EB-4FE9-A920-F0233D2FCBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B9FE58-4CC9-4EFB-9567-B4DB9FC39814}
+	EndGlobalSection
+EndGlobal

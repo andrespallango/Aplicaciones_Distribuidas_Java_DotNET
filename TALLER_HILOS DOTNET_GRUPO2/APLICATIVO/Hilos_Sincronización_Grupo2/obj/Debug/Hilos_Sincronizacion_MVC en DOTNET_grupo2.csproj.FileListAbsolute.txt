@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\bin\Debug\Grupo01_Sincronizacion_MVC.exe.config
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\bin\Debug\Grupo01_Sincronizacion_MVC.exe
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\bin\Debug\Grupo01_Sincronizacion_MVC.pdb
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Grupo01_Sincronizacion_MVC.Properties.Resources.resources
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Grupo01_Sincronizacion_MVC.Vista.VistaSincronizacion.resources
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo2.csproj.GenerateResource.cache
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Hilos_Sincronizacion_MVC en DOTNET_grupo2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Grupo01_Sincronizacion_MVC.exe
+C:\Users\User\Desktop\TALLER_HILOS DOTNET_GRUPO2\APLICATIVO\Hilos_Sincronización_Grupo2\obj\Debug\Grupo01_Sincronizacion_MVC.pdb
